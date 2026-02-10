@@ -22,23 +22,22 @@ We will produce an interactive dashboard that allows users to:
 - Input custom criteria to refine recommendations
 
 Final deliverables include:
-A data-driven dashboard with user inputs & filters
-Maps, charts, and efficiency metric visualizations
-Interpretation & recommendations for potential charging station placements
+- A data-driven dashboard with user inputs & filters
+- Maps, charts, and efficiency metric visualizations
+- Interpretation & recommendations for potential charging station placements
 
 ## Data 
-EV Charging Station Locations
-Alternative Fuels Data Center (AFDC) — Seattle/WA EV charging stations
-https://afdc.energy.gov/stations#/find/nearest?location=Washington&fuel=ELEC&country=US
+EV Charging Station Locations Alternative Fuels Data Center (AFDC) — Seattle/WA EV charging stations
+- https://afdc.energy.gov/stations#/find/nearest?location=Washington&fuel=ELEC&country=US
 
-Washington Vehicle Registration Data
+### Washington Vehicle Registration Data
 WA Vehicle Registration Transactions
-https://data.wa.gov/Transportation/Vehicle-Registration-Transactions-by-Department-of/brw6-jymh/about_data
+- https://data.wa.gov/Transportation/Vehicle-Registration-Transactions-by-Department-of/brw6-jymh/about_data
 
-Traffic Data (Seattle)
+### Traffic Data (Seattle)
 2022 Traffic Flow Counts
-https://data-seattlecitygis.opendata.arcgis.com/datasets/2022-traffic-flow-counts/about
+- https://data-seattlecitygis.opendata.arcgis.com/datasets/2022-traffic-flow-counts/about
 
-Crime Data
+### Crime Data
 SPD Crime Data: 2008–Present — City of Seattle Open Data Portal
-https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5/about_data
+- https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5/about_data
