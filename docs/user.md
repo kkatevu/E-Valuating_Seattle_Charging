@@ -6,7 +6,7 @@ Sam works for the City of Seattle’s Department of Transportation, working as a
 
 ### Private EV Charger Manufacturing Companies
 
-
+Phil just designed a new high end super speed charger and works for ChargePoint. He wants to see where the profit would be optimized by increasing car turnover. He is looking for the busiest charger location to replace a regular EV charger with his new superspeed charger to maximize ChargePoint's ROI on superspeed chargers. Phil is going to use our EV tools for research, he wants to identify the areas of Seattle where EV population is high and existing EV chargers have an increased demand of usage. The tool will allow him and ChargePoint to evaluate the efficacy of placing their charger in a specified neighborhood. Phil and his company have skills in business evaluations and basic knowledge of data visualizations, their knowledge of demand/population will allow them to intuitively use this tool.
 
 ## Use Cases
 
