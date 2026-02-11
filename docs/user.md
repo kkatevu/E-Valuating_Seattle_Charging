@@ -8,7 +8,7 @@
 - User: Enters Zipcode of interest
 - System: 
     * [if valid seattle zipcode] Display the map of zipcode area with the corresponding EV population and EV charging stations that are already established
-    *[If invalid Seattle zipcode] Display “Invalid Zipcode”
+    * [If invalid Seattle zipcode] Display “Invalid Zipcode”
 ### 2.Evaluate quality of placement for current EV charging stations
 - User: Access the “Evaluation” tab
 - System: Display “Input Zipcode” and filters for different evaluation criteria (e.g. traffic, population, wages)
