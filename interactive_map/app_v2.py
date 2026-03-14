@@ -307,6 +307,11 @@ def cached_road_fig(zip_code, _streets_gdf, _zcta_gdf, _ev_df):
 @st.cache_data(show_spinner=False)
 def single_zip_geojson(_zcta_gdf, zip_code):
     """Return GeoJSON for a single ZIP code boundary."""
+    if _zcta_gdf is None or _zcta_gdf.empty:
+        return None
+    gdf = _zcta_gdf.copy()
+    gdf["ZIP_zcta"] = gdf["ZIP_zcta"].astype(str)
+    zip_code = str(zip_code)
     row = _zcta_gdf[_zcta_gdf["ZIP_zcta"] == zip_code]
     if row.empty:
         return None
@@ -553,7 +558,14 @@ def build_road_map(zip_code, streets_gdf, zcta_gdf, ev_df):  # pylint: disable=t
             lat  = ev_zip["Latitude"],
             lon  = ev_zip["Longitude"],
             mode = "markers",
-            marker = {"bgcolor": 'white', "bordercolor": '#22c55e', "font": {"size": 13}},
+            marker = {
+                "size": 9,
+                "color": "#22c55e",
+                #"line": {
+                    #"width": 1.5,
+                    #"color": "white"
+                #}
+            },
             text       = ev_zip["Station Name"],
             customdata = ev_zip[["EV Level2 EVSE Num", "EV DC Fast Count", "EV Network"]].values,
             hovertemplate = (
